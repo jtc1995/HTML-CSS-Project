@@ -3,13 +3,40 @@
 
 
 /*-------------------------------------------------------- Nav Bar*/
+.navbar-nav {
+    margin-left: auto;
+    padding: 10px 0 10px 0; 
 
-.navbar-nav{
-  margin-left: 45em;
-  background-color: transparent;
-  
 }
 
-.navbar-nav li {
-    margin-right: 25px;
+
+
+/*-------------------------------------------------------- general*/
+
+.logo-image {
+background-image: url(../images/waterfalls1.jpg);
+height: 100vh;
+width: 100%;
+background-size: cover;
+}
+
+.image-tone {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0,0,0,0.5);
+}
+
+.logo {
+   
+    position: center;
+    padding: 300px 400px 400px 300px;
+    color: white;
+    margin-left: 150px;
+}
+
+footer {
+    position: fixed bottom;
 }
