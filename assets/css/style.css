@@ -1,16 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Source+Sans+Pro:wght@200;300;400&display=swap');
+
 
 /*--------------------------------------------------Nav Bar*/
 
 .navbar-brand {
     color: #fff;
+    
+
+    
+
 }
 .nav-link {
     color: #fff;
     float: right;
 }
 nav {
-    background-color:rgba(0, 0, 0, 0.5);
+    background-color:rgba(0, 0, 0, 0.9);
+
 }
 
 
@@ -30,6 +35,14 @@ left: 0;
 width: 100%;
 height: 100%;
 background-color: rgba(0,0,0,0.3);
+}
+.opaque-overlay-2 {
+ position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0,0,0,0.8);
 }
 
 /*--------------------------------------------------block divider*/
@@ -58,6 +71,24 @@ background-color: rgba(0,0,0,0.3);
 
   position: relative;
  }
+
+ .gallery-container {
+     height: 100vh;
+
+     background: url(../images/thaibeach.jpg) no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+ 
+ }
+ 
  
  .jumbotron {
      z-index: 1;
@@ -68,8 +99,6 @@ background-color: rgba(0,0,0,0.3);
      font-size: 10vw;
     color: #fafafa;
     text-transform: bold;
-    
-    
  }
 
  .mid-container {
@@ -96,12 +125,16 @@ background-color: rgba(0,0,0,0.3);
 .q-heading {
     color: #fafafa;
     margin-top: 20px;
+        
+
 }
 .q-text {
     color: #fafafa;
     margin-top: 20px;
     margin-bottom: 17vw;
     font-size: 20px;
+    
+
 }
 
 .exp-img {
@@ -125,10 +158,25 @@ margin-bottom: 10vw;
     margin-left: 0;
     padding-right: 3vw;
 }
+
+/*--------------------------------------------------carousel*/
+
+
+
+.carousel-heading {
+    color: #fafafa;
+    margin: 0 auto;
+}
+
+
+
+
+
+
 /*--------------------------------------------------footer*/
 
 footer {
-background-color:rgba(0, 0, 0, 0.5);
+background-color:rgba(0, 0, 0, 0.9);
 color: #fff;
 padding-top: 10px;
 }
@@ -155,3 +203,5 @@ padding-top: 10px;
 .social-links li a i:hover {
     background-color: #4380e0;
 }
+
+
