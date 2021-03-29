@@ -1,5 +1,12 @@
 
+h1, h2, h3, h4 {
+     font-family: "Poppins", sans-serif;
 
+}
+p {
+     font-family: "Kiwi Maru", sans-serif;
+
+}
 /*--------------------------------------------------Nav Bar*/
 
 .navbar-brand {
@@ -15,8 +22,10 @@
 }
 nav {
     background-color:rgba(0, 0, 0, 0.9);
+    font-family: "Poppins", sans-serif;
 
 }
+
 
 
     
@@ -302,6 +311,7 @@ padding-top: 10px;
     width: 32px;
     height: 32px;
     padding: 12px 0;
+    display: inline auto;
     border-radius: 50%;
     font-size: 13px;
     line-height: 5px;
