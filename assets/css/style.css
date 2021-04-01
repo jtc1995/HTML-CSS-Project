@@ -1,29 +1,26 @@
 
 h1, h2, h3, h4 {
      font-family: "Poppins", sans-serif;
-
 }
+
 p {
      font-family: "Kiwi Maru", sans-serif;
-
 }
+
 /*--------------------------------------------------Nav Bar*/
 
 .navbar-brand {
     color: #fff;
-    
-
-    
-
 }
+
 .nav-link {
     color: #fff;
     float: right;
 }
+
 nav {
     background-color:rgba(0, 0, 0, 0.9);
     font-family: "Poppins", sans-serif;
-
 }
 
 .navbar-nav {
@@ -37,16 +34,9 @@ nav {
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out; 
-
 }
-    
-
-
-
-
 
 /*--------------------------------------------------background*/
-
 
 .opaque-overlay{
 position: absolute;
@@ -56,6 +46,7 @@ width: 100%;
 height: 100%;
 background-color: rgba(0,0,0,0.3);
 }
+
 .opaque-overlay-2 {
  position: absolute;
 top: 0;
@@ -66,80 +57,66 @@ background-color: rgba(0,0,0,0.8);
 }
 
 /*--------------------------------------------------block divider*/
+
 .block-divider {
     color: #fafafa;
     width: 100%;
     height: 20px;
     border: 0;
 }
-/*--------------------------------------------------icons*/
-
-
 
 /*--------------------------------------------------general*/
 
  .head-container {
-    height: 100vh;
-
+     height: 100vh;
      background: url(../images/thaibeach.jpg) no-repeat bottom right fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
  }
 
  .gallery-container {
-     height: 100vh;
-
-     background: url(../images/memories.jpg) no-repeat top right fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  position: relative;
- 
+    height: 100vh;
+    background: url(../images/memories.jpg) no-repeat top right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
  }
  
  .about-container {
-       height: 100vh;
-
-     background: url(../images/buildings.jpg) no-repeat bottom right fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  position: relative;
+    height: 100vh;
+    background: url(../images/buildings.jpg) no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
  }
+
  .contact-container {
-       height: 100vh;
-
-     background: url(../images/nia.jpg) no-repeat bottom right fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  position: relative;
+     height: 100vh;
+    background: url(../images/nia.jpg) no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
  }
 
  .jumbotron {
@@ -149,13 +126,13 @@ background-color: rgba(0,0,0,0.8);
  }
 
  .jumbotron-header {
-     font-size: 4rem;
+    font-size: 4rem;
     color: #fafafa;
     text-transform: bold;
  }
 
  .jumbotron-contact-header {
-     font-size: 4rem;
+    font-size: 4rem;
     color: #fafafa;
     text-transform: bold;
  }
@@ -166,43 +143,39 @@ background-color: rgba(0,0,0,0.8);
  }
 
  .jumbotron-about-header h3 {
-     font-size: 4rem;
+    font-size: 4rem;
  }
 
  .mid-container {
-     color: #fff;
-     margin: 0 auto;
-    
-   
-     
+    color: #fff;
+    margin: 0 auto;  
  }
 
  .mid-item {
-     text-align: center;
-     
+    text-align: center;  
  }
+
 .des-heading {
     color: #fafafa;
     margin-top: 20px;
 }
+
 .des-text {
     color: #fafafa;
     padding-bottom: 6vw;
     font-size: 20px;
 }
+
 .q-heading {
     color: #fafafa;
     margin-top: 20px;
-        
-
 }
+
 .q-text {
     color: #fafafa;
     margin-top: 20px;
     margin-bottom: 17vw;
     font-size: 20px;
-    
-
 }
 
 .about-heading {
@@ -226,40 +199,37 @@ background-size: cover;
 border-radius: 50%;
 margin: 0 auto;
 margin-bottom: 10vw;
-
 }
 
 .exp-img-2 {
-background-image: url(../images/traveller.jpg);
-height: 360px;
-width: 360px;
-background-repeat: no-repeat;
-background-size: cover;
-border-radius: 50%;
-margin: 0 auto;
-margin-bottom: 10vw;
-
+    background-image: url(../images/traveller.jpg);
+    height: 360px;
+    width: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 10vw;
 }
 
 .exp-img-3 {
-background-image: url(../images/traveller2.jpg);
-height: 360px;
-width: 360px;
-background-repeat: no-repeat;
-background-size: cover;
-border-radius: 50%;
-margin: 0 auto;
-margin-bottom: 10vw;
-
+    background-image: url(../images/traveller2.jpg);
+    height: 360px;
+    width: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 10vw;
 }
 
 .landing-content {
     border: 0;
 }
+
 .gallery-content {
     padding-top: 5vw;
     padding-bottom: 5vw;
-
 }
    
 .exp {
@@ -270,13 +240,10 @@ margin-bottom: 10vw;
 
 /*--------------------------------------------------carousel*/
 
-
-
 .carousel-heading {
     color: #fafafa;
     margin: 0 auto;
 }
-
 
 /*--------------------------------------------------contact form*/
 
@@ -295,16 +262,13 @@ margin-bottom: 10vw;
     padding-top: 5vw;
 }
 
-
 .center-form-heading {
     color: #fafafa;
     font-weight: bold;
     font-size: 2rem;
     padding-bottom: 5vh;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;    
 }
-
 
 .form-control:focus {
     color: #212529;
@@ -314,13 +278,12 @@ margin-bottom: 10vw;
     box-shadow: 0 0 0 0.25rem rgb(0 0 0 / 25%);
 }
 
-
 /*--------------------------------------------------footer*/
 
 footer {
-background-color:rgba(0, 0, 0, 0.9);
-color: #fff;
-padding-top: 10px;
+    background-color:rgba(0, 0, 0, 0.9);
+    color: #fff;
+    padding-top: 10px;
 }
 
 .social-links li a i {
@@ -334,14 +297,11 @@ padding-top: 10px;
     text-align: center;
     color: #fafafa;
     background-color: #8f8f8f;
-     transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out; 
-
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out; 
 }
-
-
 
 .social-links li a i:hover {
     background-color: #4380e0;
@@ -350,11 +310,11 @@ padding-top: 10px;
 
 @media only screen and (min-width: 768px) {
  
- .carousel-container {
-max-width: 50vw;
-max-height: 30vw;
-position: absolute;
-margin-bottom: 10vw; 
+.carousel-container {
+    max-width: 50vw;
+    max-height: 30vw;
+    position: absolute;
+    margin-bottom: 10vw; 
  }
 
  .carousel-heading {
@@ -372,7 +332,7 @@ margin-bottom: 10vw;
 
 @media only screen and (max-width: 600px) {
 
-    .center-form {
+.center-form {
     z-index: 1;
     margin: 0 auto;
     padding-bottom: 20vw;
@@ -383,4 +343,5 @@ margin-bottom: 10vw;
     padding-top: 15vw;
     padding-bottom: 20vw;
 }
+
 }
