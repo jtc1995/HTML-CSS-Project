@@ -66,6 +66,9 @@ background-color: rgba(0,0,0,0.8);
 }
 
 /*--------------------------------------------------general*/
+.container-fluid {
+    vertical-align: top;
+}
 
  .head-container {
      height: 100vh;
@@ -91,6 +94,8 @@ background-color: rgba(0,0,0,0.8);
     align-items: center;
     justify-content: center;
     position: relative;
+    width: auto;
+    overflow: hidden;
  }
  
  .about-container {
@@ -123,6 +128,7 @@ background-color: rgba(0,0,0,0.8);
      z-index: 1;
      border: #fafafa 3px solid;
      padding: 8px 8px 8px 8px;
+     margin: 2vw;
  }
 
  .jumbotron-header {
@@ -138,12 +144,15 @@ background-color: rgba(0,0,0,0.8);
  }
 
  .jumbotron-about-header {
+    font-size: 4rem;
     color: #fafafa;
     text-transform: bold;
  }
 
- .jumbotron-about-header h3 {
+ .jumbotron-gallery-header {
     font-size: 4rem;
+    color: #fafafa;
+    text-transform: bold;
  }
 
  .mid-container {
@@ -225,6 +234,7 @@ margin-bottom: 10vw;
 
 .landing-content {
     border: 0;
+    display: block;
 }
 
 .gallery-content {
@@ -343,5 +353,20 @@ footer {
     padding-top: 15vw;
     padding-bottom: 20vw;
 }
+
+.exp-img, .exp-img-2, .exp-img-3 {
+    width: auto;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+    .jumbotron {
+        margin: 3vw;
+    }
+
+    .jumbotron-gallery-header, .jumbotron-about-header, .jumbotron-contact-header, .jumbotron-header {
+        font-size: 3rem;
+    }
 
 }
