@@ -126,28 +126,28 @@ background-color: rgba(0,0,0,0.8);
  .jumbotron-header {
     font-size: 4rem;
     color: #fafafa;
-    text-transform: bold;
+    font-weight: bold;
     font-family: "Poppins", sans-serif;
  }
 
  .jumbotron-contact-header {
     font-size: 4rem;
     color: #fafafa;
-    text-transform: bold;
+    font-weight: bold;
     font-family: "Poppins", sans-serif;
  }
 
  .jumbotron-about-header {
     font-size: 4rem;
     color: #fafafa;
-    text-transform: bold;
+    font-weight: bold;
     font-family: "Poppins", sans-serif;
  }
 
  .jumbotron-gallery-header {
     font-size: 4rem;
     color: #fafafa;
-    text-transform: bold;
+    font-weight: bold;
     font-family: "Poppins", sans-serif;
  }
 
@@ -302,10 +302,10 @@ footer {
     width: 32px;
     height: 32px;
     padding: 12px 0;
-    display: inline auto;
+    display: inline-block;
     border-radius: 50%;
     font-size: 13px;
-    line-height: 5px;
+    line-height: 3px;
     text-align: center;
     color: #fafafa;
     background-color: #8f8f8f;
@@ -360,6 +360,14 @@ footer {
     width: auto;
 }
 
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .social-links {
+        display: flex;
+    }
+    
 }
 
 @media only screen and (max-width: 600px) {
