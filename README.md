@@ -1,7 +1,7 @@
 # HTML-CSS-Project
 1st milestone project
 
-<h1 align="center">Code Institute Website</h1>
+<h1 align="center">HTML & CSS PROJECT</h1>
 
 
 
@@ -11,42 +11,39 @@
 
     -   #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+        1. As a First Time Visitor, 
+        2. As a First Time Visitor,
+        3. As a First Time Visitor,
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information about coding challenges.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. As a Returning Visitor, I want to find community links.
+        1. As a Returning Visitor,
+        2. As a Returning Visitor,
+        3. As a Returning Visitor,
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-        2. As a Frequent User, I want to check to see if there are any new blog posts.
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+        1. As a Frequent User, 
+        2. As a Frequent User, 
+        3. As a Frequent User, 
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are Code Insititue red, and white.
+        
     -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+        
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
-
-    -   Mobile Wireframe - [View](https://github.com/)
-
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+    -  here is a link to my wireframes i created at the start of the project, 
+       it includes my 4 pages : Home, About, Gallery, Contact (https://github.com/jtc1995/HTML-CSS-Project/blob/main/FIRST%20MILESTONE%20PROJECT.bmpr)
 
 ## Features
 
--   Responsive on all device sizes
+-   my Project is responsive on all devices. Desktop, Tablet and Mobile screens.
 
--   Interactive elements
+-   using the hover property i have made the website interactive. my social links and menu items change colour whilst hovering over them.
 
 ## Technologies Used
 
@@ -148,9 +145,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+-   during the build of my project i came across a bug when i was using google developer tools. when i reduced it down to the smaller screen sizes on mobile devices i noticed i had a some white spacing on the right of the screen.
+    i resolved this by adding width: auto; to my media query. this was very time consuming trying to resolve this issue.
 
 ## Deployment
 
@@ -204,24 +200,22 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
-
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): I used the bootstrap library heavily during this project, i relied on the grid system a lot. I also used a bootstrap navbar.
 
 ### Content
 
--   All content was written by the developer.
-
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
-
+- most of the content i had written myself but i did use some of the code from the resume project as i really liked the basis of styling.
+  it also helped me structure my footer as i was struggling at this point, i have edited the style in my own way by editing the positioning and the colour of the hover property.
+  please view the footer code in my project along with the styling.
+ 
+    
 ### Media
 
--   All Images were created by the developer.
+-   all the images i used in my gallery where taken by my sister on her travels round the world.
+
+-   background images for each of the pages i found on google by changing the usage rights to allow me to find free use images.
+    
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
-
--   Tutor support at Code Institute for their support.
+-   My Mentor was really helpful through out the project. giving me structure and help manage the work. i am very pleased with the guidance i was given.
